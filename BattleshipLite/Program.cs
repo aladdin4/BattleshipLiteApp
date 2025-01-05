@@ -14,8 +14,8 @@ namespace BattleshipLite
         {
             WelcomeMessage();
 
-            PlayerInfoModel activePlayer = CreatePlayer("Player 1");
-            PlayerInfoModel opponent = CreatePlayer("Player 2");
+            PlayerInfoModel activePlayer = CreatePlayer("Player: 1");
+            PlayerInfoModel opponent = CreatePlayer("Player: 2");
             PlayerInfoModel winner = null;
 
             do
